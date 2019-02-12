@@ -6,7 +6,6 @@ div{
 
 }
 .nav a{
-  border:1px solid;
   margin-right: 10px;
 }
 .header{
@@ -35,4 +34,7 @@ div[class^="day-box"]{
 }
 .account_form label{
   display:block;
+}
+.assignment-label{
+  display:inline;
 }
