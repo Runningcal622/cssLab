@@ -4,6 +4,7 @@
 }
 div{
     border:5px solid;
+    border-color: gray; 
 }
 .nav{
 
