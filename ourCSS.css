@@ -16,6 +16,7 @@ div{
 }
 [class="day-box PREP"]{
   background-color: lightBlue;
+  margin-bottom: 10px;
 }
 
 [class="day-box CURRENT"]{
