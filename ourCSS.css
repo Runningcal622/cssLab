@@ -14,12 +14,13 @@ div{
 
 }
 [class="day-box PREP"]{
+  background-color: lightBlue;
 }
 
 [class="day-box CURRENT"]{
-
+  background-color: lavender;
 }
 
 [class="day-box COMPLETED"]{
-
+  background-color: lightYellow;
 }
