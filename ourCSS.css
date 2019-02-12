@@ -3,20 +3,28 @@
   height:110px;
 }
 div{
-    border:1px solid;
-    border-color: gray;
-    border-collapse: collapse;
+  border:1px solid;
+  border-collapse:collapse;
+
 }
-.nav{
-
-
+.nav a{
+  border:1px solid;
+  margin-right: 10px;
 }
 .header{
 
 }
+div[class^="day-box"]{
+  margin-bottom: 20px;
+  border-color: gray;
+}
+.day{
+  font-size: 20px;
+  color: saddlebrown;
+
+}
 [class="day-box PREP"]{
   background-color: lightBlue;
-  margin-bottom: 10px;
 }
 
 [class="day-box CURRENT"]{
