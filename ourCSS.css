@@ -39,3 +39,7 @@ div[class^="day-box"]{
   display:inline;
   padding: 15px;
 }
+.assignment_prompt .input_text{
+  width: 200px;
+  height: 200px;
+}
