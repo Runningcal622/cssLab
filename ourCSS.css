@@ -37,4 +37,5 @@ div[class^="day-box"]{
 }
 .assignment-label{
   display:inline;
+  padding: 15px;
 }
