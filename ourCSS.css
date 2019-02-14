@@ -1,3 +1,12 @@
+[class="assignmentWidget GRADED"] .grade{
+  display:inline;
+}
+.assignment-title{
+  display: inline;  
+}
+body{
+  background-color: #056087;
+}
 .person_image{
   width:70px;
   height:110px;
@@ -39,4 +48,9 @@ div[class^="day-box"]{
 }
 .assignment-label{
   display:inline;
+  padding: 15px;
+}
+.input_text{
+  width: 450px;
+  height: 200px;
 }
