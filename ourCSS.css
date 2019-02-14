@@ -1,3 +1,6 @@
+[class=".assignmentWidget GRADED"] .grade{
+  display:inline;
+}
 .assignment-title{
   display: inline;  
 }
