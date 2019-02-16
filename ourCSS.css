@@ -10,7 +10,6 @@
   display:inline;
 }
 .assignment-title{
-  display: inline;
 }
 body{
   background-color: #056087;
@@ -62,6 +61,7 @@ a, a:visited{
 .header{
 
 }
+
 div[class^="day-box"]{
   margin-bottom: 20px;
   border:1px solid;
@@ -81,9 +81,10 @@ div[class^="day-box"]{
   color: blue;
 }
 .reading-box{
-  display: flex;
+display:inline;
 
 }
+
 .notes{
   text-align: left;
 }
@@ -96,9 +97,8 @@ div[class^="day-box"]{
 
 [class="day-box CURRENT"]{
   background-color: lavender;
-
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 [class="day-box COMPLETED"]{
@@ -116,7 +116,4 @@ div[class^="day-box"]{
 .input_text{
   width: 450px;
   height: 200px;
-}
-.account_form{
-
 }
