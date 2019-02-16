@@ -20,9 +20,23 @@ body{
   width:70px;
   height:110px;
 }
+label{
+  display:block;
+  margin-top: 10px;
+}
+[name="person_image_file"]{
+  display:block;
+}
+[name="person_image_file"]::before{
+  content: "Place image file here";
+}
+form label:nth-child(7){
+  color:red;
+}
 div{
 
 }
+
 .partners{
   position: absolute;
   top:20px;
@@ -30,7 +44,7 @@ div{
   display: block;
 }
 .nav{
-  position:absolute;
+  position:fixed;
   top:0px;
   left: 40%;
 
@@ -38,7 +52,7 @@ div{
 a, a:visited{
   color:inherit;
   text-decoration: none;
-  display:block;
+
 }
 .nav a, a:visited{
   margin-right: 10px;
@@ -53,6 +67,10 @@ div[class^="day-box"]{
   border:1px solid;
   border-color: gray;
   font-size: 30;
+  width:400px;
+  height:150px;
+  overflow:auto;
+
 }
 .day:first-child{
   font-size: 20px;
@@ -71,17 +89,24 @@ div[class^="day-box"]{
 }
 [class="day-box PREP"]{
   background-color: lightBlue;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 [class="day-box CURRENT"]{
   background-color: lavender;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 [class="day-box COMPLETED"]{
   background-color: lightYellow;
-}
-.account_form label{
-  display:block;
+  float:left;
+  margin:15px;
+  position:relative;
+  left:75px;
 }
 .assignment-label{
   display:inline;
@@ -91,4 +116,7 @@ div[class^="day-box"]{
 .input_text{
   width: 450px;
   height: 200px;
+}
+.account_form{
+
 }
