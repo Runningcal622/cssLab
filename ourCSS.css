@@ -28,6 +28,7 @@ label{
 }
 [name="person_image_file"]::before{
   content: "Place image file here";
+  width:300px;
 }
 form label:nth-child(7){
   color:red;
