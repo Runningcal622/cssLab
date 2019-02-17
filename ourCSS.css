@@ -1,6 +1,13 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-</style>
+
+:root{
+  --leafgreen:#74b472;
+  --lightgreen: #cff6b0;
+  --bluegreen:#58b081;
+  --brown:#907665;
+  --blue:#b3eae8;
+}
+
+
 
 .header .username{
   font-family: "Shadows Into Light";
@@ -12,7 +19,13 @@
 .assignment-title{
 }
 body{
-  background-color: #056087;
+  background-color:var(--blue);
+  background-image:url("ourTree2.png");
+  background-position:center -15%;
+
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  back
 
 }
 .person_image{
@@ -25,10 +38,6 @@ label{
 }
 [name="person_image_file"]{
   display:block;
-}
-[name="person_image_file"]::before{
-  content: "Place image file here";
-  width:300px;
 }
 form label:nth-child(7){
   color:red;
@@ -44,14 +53,10 @@ div{
   display: block;
 }
 .nav{
-  position:fixed;
-  top:0px;
-  left: 40%;
 
 }
 a, a:visited{
-  color:inherit;
-  text-decoration: none;
+  // use low contrast for cloud links
 
 }
 .nav a, a:visited{
@@ -64,20 +69,23 @@ a, a:visited{
 }
 
 div[class^="day-box"]{
-  margin-bottom: 20px;
   border:1px solid;
   border-color: gray;
   font-size: 30;
-  width:400px;
-  height:150px;
-  overflow:auto;
 
-}
-.day:first-child{
+  text-align: center;
   font-size: 20px;
-  color: saddlebrown;
-
 }
+[class="day-box COMPLETED"] .day:first-child{
+  color:silver;
+}
+[class="day-box PREP"] .day:first-child{
+  color:saddlebrown;
+}
+[class="day-box CURRENT"] .day:first-child{
+  color:saddlebrown;
+}
+
 .reading-box .reading:not(.assignment-label){
   color: blue;
 }
@@ -87,31 +95,43 @@ display:inline;
 }
 
 .notes{
-  text-align: left;
+  text-align: center;
+
 }
 [class="day-box PREP"]{
-  background-color: lightBlue;
-  margin-left: auto;
-  margin-right: auto;
-
+  width:300px;
+  background-color: var(--leafgreen);
+  float: left;
+  margin-left: 100px;
+  border-radius:100px;
+  overflow: auto;
+  height: 150px;
 }
 
 [class="day-box CURRENT"]{
-  background-color: lavender;
-  margin-left: auto;
-  margin-right: auto;
+  width:300px;
+  background-color: var(--bluegreen);
+  float:left;
+  border-radius:100px;
+  height:150px;
+  overflow: auto;
 }
 
 [class="day-box COMPLETED"]{
-  background-color: lightYellow;
-  float:left;
-  margin:15px;
+  background-color: var(--brown);
+  margin-left: auto;
+  margin-right: auto;
+  height:25px;
+  clear:left;
   position:relative;
-  left:75px;
+  top:500px;
+  overflow: hidden;
+  width:200px;
+  border: 2px solid black;
+
+
 }
 .assignment-label{
-  display:inline;
-  padding:15px;
   color:black;
 }
 .input_text{
