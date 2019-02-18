@@ -24,7 +24,7 @@ body < table{
 body{
   background-color:var(--blue);
   background-image:url("ourTree2.png");
-  background-position:center 200px;
+  background-position:center 75px;
 
   background-attachment:scroll;
   background-repeat: no-repeat;
@@ -135,7 +135,9 @@ display:inline;
 }
 [class="day-box COMPLETED"]:hover{
   width:300px;
-  height:500px;
+  height:300px;
+  position:relative;
+  bottom:100px;
 
 
 }
