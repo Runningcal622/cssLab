@@ -133,11 +133,17 @@ display:inline;
 
 
 }
+@@keyframes moveup {
+
+}
 [class="day-box COMPLETED"]:hover{
   width:300px;
   height:300px;
-  position:relative;
-  bottom:100px;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
 
 
 }
