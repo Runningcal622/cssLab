@@ -18,6 +18,9 @@
 }
 .assignment-title{
 }
+body:has(>table){
+  background-image:none;
+}
 body{
   background-color:var(--blue);
   background-image:url("ourTree2.png");
