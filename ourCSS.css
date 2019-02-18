@@ -21,7 +21,7 @@
 body{
   background-color:var(--blue);
   background-image:url("ourTree2.png");
-  background-position:center -15%;
+  background-position:center 200px;
 
   background-attachment:scroll;
   background-repeat: no-repeat;
