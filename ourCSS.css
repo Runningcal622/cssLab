@@ -172,3 +172,12 @@ table{
   padding-right: 100%;
   background-color: var(--blue);
 }
+svg{
+  margin: auto;
+  height:900px;
+  background-color: var(--blue);
+  width:60%;
+  display: block;
+  padding-left: 500px;
+
+}
