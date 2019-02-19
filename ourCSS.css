@@ -10,7 +10,9 @@
 .grade_form{
   background-color: var(--blue);
 }
-
+.assignment_form{
+  background-color: var(--blue);
+}
 .header .username{
   font-family: "Shadows Into Light";
   font-size: 100;
