@@ -24,7 +24,7 @@ body < table{
 body{
   background-color:var(--blue);
   background-image:url("ourTree2.png");
-  background-position:center 75px;
+  background-position:center 160px;
 
   background-attachment:scroll;
   background-repeat: no-repeat;
@@ -103,20 +103,26 @@ display:inline;
 [class="day-box PREP"]{
   width:300px;
   background-color: var(--leafgreen);
-  float: left;
-  margin-left: 100px;
   border-radius:100px;
   overflow: auto;
   height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  position:relative;
+  top:300px;
+  margin-bottom: 20px;
 }
 
 [class="day-box CURRENT"]{
   width:300px;
   background-color: var(--bluegreen);
-  float:left;
   border-radius:100px;
   height:150px;
   overflow: auto;
+  margin-right: auto;
+  margin-left: auto;
+  position:relative;
+  top:300px;
 }
 
 [class="day-box COMPLETED"]{
@@ -126,10 +132,11 @@ display:inline;
   height:25px;
   clear:left;
   position:relative;
-  top:500px;
+  top:415px;
   overflow: hidden;
   width:200px;
   border: 2px solid black;
+
 
 
 }
@@ -139,13 +146,16 @@ display:inline;
 [class="day-box COMPLETED"]:hover{
   width:300px;
   height:300px;
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-
-
-
+  transform: translateY(-270px);
+  transition: transform 1s;
+}
+[class="day-box PREP"]:hover{
+  transform: scale(1.5);
+  z-index: 1;
+}
+[class="day-box CURRENT"]:hover{
+  transform: scale(1.5);
+  z-index: 1;
 }
 .assignment-label{
   color:black;
@@ -153,4 +163,12 @@ display:inline;
 .input_text{
   width: 450px;
   height: 200px;
+}
+.account_form{
+  padding-bottom: 400px;
+  background-color:var(--blue);
+}
+table{
+  padding-right: 100%;
+  background-color: var(--blue);
 }
