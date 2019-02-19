@@ -13,6 +13,9 @@
 .assignment_form{
   background-color: var(--blue);
 }
+.assignment_form table{
+  display:inline;
+}
 .header .username{
   font-family: "Shadows Into Light";
   font-size: 100;
