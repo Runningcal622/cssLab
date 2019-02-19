@@ -149,14 +149,14 @@ display:inline;
   transform: translateY(-270px);
   transition: transform 1s;
 }
-[class="day-box PREP"]:hover{
+/*[class="day-box PREP"]:hover{
   transform: scale(1.5);
   z-index: 1;
 }
 [class="day-box CURRENT"]:hover{
   transform: scale(1.5);
   z-index: 1;
-}
+}*/
 .assignment-label{
   color:black;
 }
