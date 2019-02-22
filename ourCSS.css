@@ -84,27 +84,53 @@ a, a:visited{
   // use low contrast for cloud links
 
 }
-/*.nav:nth-child(1){
-//logout
-position: absolute;
-top:50px;
-left:400px;
-background-image: url("/cloud.png");
+.nav a:nth-child(1){
+  position: fixed;
+  top:50px;
+  left:400px;
+  padding:100px;
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.nav:nth-child(2){
-//myAccount
+.nav a:nth-child(2){
+  position: fixed;
+  top:25px;
+  left:700px;
+  padding:100px;
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-.nav:nth-child(3){
-//Home
+.nav a:nth-child(3){
+  position: fixed;
+  top:50px;
+  left:400px;
+  padding:100px;
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-.nav:nth-child(4){
-//ClassMates
+.nav a:nth-child(4){
+  position: fixed;
+  top:50px;
+  left:400px;
+  padding:100px;
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-.nav:nth-child(5){
-//seating
+.nav a:nth-child(5){
+  position: fixed;
+  top:50px;
+  left:400px;
+  padding:100px;
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-*/
+
 .nav a, a:visited{
   margin-right: 10px;
   display: inline;
