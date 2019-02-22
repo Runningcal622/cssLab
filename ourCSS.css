@@ -68,6 +68,21 @@ a, a:visited{
   // use low contrast for cloud links
 
 }
+nav a:nth-child(1){
+//logout
+}
+nav a:nth-child(2){
+//myAccount
+}
+nav a:nth-child(3){
+//Home
+}
+nav a:nth-child(4){
+//ClassMates
+}
+nav a:nth-child(5){
+//seating
+}
 .nav a, a:visited{
   margin-right: 10px;
   display: inline;
@@ -147,6 +162,7 @@ display:inline;
 
 
 }
+
 @@keyframes moveup {
 
 }
