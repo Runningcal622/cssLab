@@ -5,6 +5,7 @@
   --bluegreen:#58b081;
   --brown:#907665;
   --blue:#b3eae8;
+  --location:"https://Runningcal622.github.io/cssLab/";
 }
 
 .grade_form{
@@ -66,10 +67,9 @@ div{
 
 }
 .header .person_info .person_image{
-/*  margin: 30px;
-  background-image: url("border.png");
+  background-image: url(var(--location)+"border.png");
   background-size: 110px 70px;
-  background-blend-mode: lighten;*/
+
 }
 .partners{
   position: absolute;
