@@ -12,9 +12,20 @@
 }
 .assignment_form{
   background-color: var(--blue);
+  padding-bottom: 300px;
 }
 .assignment_form table{
   display:inline;
+}
+.prompt{
+  padding-bottom: 20px;
+  background-color: var(--blue);
+}
+.view_text{
+  background-color: var(--blue);
+}
+.grade-table{
+  padding-bottom: 320px;
 }
 .header .username{
   font-family: "Shadows Into Light";
@@ -54,7 +65,12 @@ form label:nth-child(7){
 div{
 
 }
-
+.header .person_info .person_image{
+/*  margin: 30px;
+  background-image: url("border.png");
+  background-size: 110px 70px;
+  background-blend-mode: lighten;*/
+}
 .partners{
   position: absolute;
   top:20px;
@@ -68,21 +84,27 @@ a, a:visited{
   // use low contrast for cloud links
 
 }
-nav a:nth-child(1){
+/*.nav:nth-child(1){
 //logout
+position: absolute;
+top:50px;
+left:400px;
+background-image: url("/cloud.png");
 }
-nav a:nth-child(2){
+
+.nav:nth-child(2){
 //myAccount
 }
-nav a:nth-child(3){
+.nav:nth-child(3){
 //Home
 }
-nav a:nth-child(4){
+.nav:nth-child(4){
 //ClassMates
 }
-nav a:nth-child(5){
+.nav:nth-child(5){
 //seating
 }
+*/
 .nav a, a:visited{
   margin-right: 10px;
   display: inline;
