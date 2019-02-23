@@ -96,8 +96,8 @@ a, a:visited{
 
 .nav a:nth-child(2){
   position: fixed;
-  top:25px;
-  left:700px;
+  top:225px;
+  left:100px;
   padding:100px;
   background-image: url("https://Runningcal622.github.io/cssLab/cloud2.png");
   background-repeat: no-repeat;
@@ -105,28 +105,28 @@ a, a:visited{
 }
 .nav a:nth-child(3){
   position: fixed;
-  top:50px;
-  left:400px;
+  top:25px;
+  left:700px;
   padding:100px;
-  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud3.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
 .nav a:nth-child(4){
   position: fixed;
   top:50px;
-  left:400px;
+  left:900px;
   padding:100px;
-  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud4.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
 .nav a:nth-child(5){
   position: fixed;
-  top:50px;
-  left:400px;
+  top:75px;
+  left:1100px;
   padding:100px;
-  background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
+  background-image: url("https://Runningcal622.github.io/cssLab/cloud5.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
