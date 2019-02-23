@@ -7,7 +7,12 @@
   --blue:#b3eae8;
   --location:"https://Runningcal622.github.io/cssLab/";
 }
-
+h1{
+  position:absolute;
+  top:25px;
+  left:1550px;
+  font-size: 100px;
+}
 .grade_form{
   background-color: var(--blue);
 }
@@ -67,8 +72,13 @@ div{
 
 }
 .header .person_info .person_image{
-  background-image: url(var(--location)+"border.png");
-  background-size: 110px 70px;
+  background-image: url("https://Runningcal622.github.io/cssLab/border.png");
+  background-size: 90px 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 10px solid transparent;
+  border-image: url("https://Runningcal622.github.io/cssLab/border.png");
+  border-image-slice: 10%;
 
 }
 .partners{
@@ -237,15 +247,17 @@ table{
   background-color: var(--blue);
 }
 table td{
+  padding: 10px;
   border: 10px solid transparent;
-  border-image: url("https://Runningcal622.github.io/cssLab/tableborder.png"));
-  border-image-slice: 20%;
+  border-image: url("https://Runningcal622.github.io/cssLab/tableborder.png");
+  border-image-slice: 10%;
+  border-image-repeat: repeat;
 }
-.sound{
+/*.sound{
   width:20px;
   height:20px;
   background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
-}
+}*/
 svg{
   position: absolute;
   top:200px;
