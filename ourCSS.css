@@ -7,11 +7,17 @@
   --blue:#b3eae8;
   --location:"https://Runningcal622.github.io/cssLab/";
 }
+@@font-face {
+  font-family: 'Gloria Hallelujah', cursive;
+  src:url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+}
 h1{
   position:absolute;
   top:25px;
   left:1550px;
-  font-size: 100px;
+  font-size: 50px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 .grade_form{
   background-color: var(--blue);
@@ -88,10 +94,15 @@ div{
   display: block;
 }
 .nav{
+  font-family: 'Gloria Hallelujah', cursive;
 
 }
+.nav a, a:visited{
+  text-decoration: none;
+  color:darkblue;
+}
 a, a:visited{
-  // use low contrast for cloud links
+
 
 }
 .nav a:nth-child(1){
@@ -213,7 +224,7 @@ display:inline;
   height:25px;
   clear:left;
   position:relative;
-  top:415px;
+  top:495px;
   overflow: hidden;
   width:200px;
   border: 2px solid black;
