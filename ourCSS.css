@@ -237,8 +237,9 @@ table{
   background-color: var(--blue);
 }
 table td{
-  border: 1px solid black;
-
+  border: 10px solid transparent;
+  border-image: url("https://Runningcal622.github.io/cssLab/tableborder.png"));
+  border-image-slice: 20%;
 }
 .sound{
   width:20px;
