@@ -74,9 +74,7 @@ label{
 form label:nth-child(7){
   color:red;
 }
-div{
 
-}
 .header .person_info .person_image{
   background-image: url("https://Runningcal622.github.io/cssLab/border.png");
   background-size: 90px 130px;
@@ -101,10 +99,8 @@ div{
   text-decoration: none;
   color:darkblue;
 }
-a, a:visited{
 
 
-}
 .nav a:nth-child(1){
   position: fixed;
   top:10px;
@@ -156,9 +152,6 @@ a, a:visited{
 .nav a, a:visited{
   margin-right: 10px;
   display: inline;
-
-}
-.header{
 
 }
 
@@ -273,7 +266,7 @@ svg{
   position: absolute;
   top:200px;
   padding-right:500px;
-  height:800px;
+  height:900px;
   background-color: var(--blue);
   width:60%;
   display: block;
