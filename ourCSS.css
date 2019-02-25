@@ -224,11 +224,10 @@ display:inline;
   height:25px;
   clear:left;
   position:relative;
-  top:495px;
+  top:370px;
   overflow: hidden;
   width:200px;
   border: 2px solid black;
-  overflow: auto;
 
 
 }
