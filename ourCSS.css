@@ -262,11 +262,13 @@ table td{
   border-image-slice: 10%;
   border-image-repeat: repeat;
 }
-/*.sound{
+.sound{
   width:20px;
   height:20px;
   background-image: url("https://Runningcal622.github.io/cssLab/cloud.png");
-}*/
+  border:2px solid black;
+
+}
 svg{
   position: absolute;
   top:200px;
